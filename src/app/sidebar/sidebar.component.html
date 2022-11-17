@@ -1,0 +1,35 @@
+<div>
+    <div class="sidebar-opener" (click)="sidebarShow = !sidebarShow">
+        Click To Show Sidebar
+    </div>
+    
+    <div class="sidebar-slider mt-5" [class.sidebar-slide-in]="sidebarShow">
+        <div class="sidebar-close" (click)="sidebarShow = !sidebarShow">
+            X
+        </div>
+        <!-- <div class="custom-control custom-switch"  class="sidebar-close"
+        (click)="sidebarShow = !sidebarShow">
+            <input type="checkbox" class="custom-control-input" id="customSwitch1">
+        
+          </div> -->
+          <div class="sidebar-content">
+            <h2 class="side-name">Sidebar</h2>
+            <div></div>
+            <div class="side-name">
+                <a>About Us</a></div>
+            <div class="side-name">Services</div>
+            <div class="side-name">Prices</div>
+            <div class="side-name">Downloads</div>
+            <div class="side-name">Contact Us</div>
+          </div>
+    </div>
+    <div>
+
+    <div>
+        dfghjk
+    </div>
+
+        <router-outlet></router-outlet>
+    </div>
+    
+</div>
